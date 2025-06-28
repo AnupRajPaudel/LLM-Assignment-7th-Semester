@@ -1,26 +1,27 @@
 # Assignment 3.2: Multi-Agent LLM System
 
 ## Overview
-This assignment implements a multi-agent system where different LLM agents collaborate to handle complex tasks. Each agent specializes in a specific subtask:
+This assignment involves building a multi-agent framework where multiple LLM agents collaborate to solve complex tasks. Each agent is specialized for a particular function:
 
-- **Planning Agent**: Breaks down complex queries into subtasks
-- **Summarization Agent**: Summarizes long texts and documents
-- **QA Agent**: Answers specific questions and provides detailed responses
-- **Coordinator Agent**: Orchestrates communication between agents
+- **Planning Agent**: Decomposes complex queries into smaller, manageable subtasks  
+- **Summarization Agent**: Produces concise summaries of lengthy texts and documents  
+- **QA Agent**: Provides detailed answers to specific questions  
+- **Coordinator Agent**: Manages communication and coordination among agents
 
 ## System Architecture
-The multi-agent system uses message passing for communication between agents, with a shared memory system for storing intermediate results and context.
+The system leverages message passing for inter-agent communication alongside a shared memory module that stores intermediate data and context for smooth collaboration.
 
-## Features
-- Modular agent design with specialized capabilities
-- Message passing communication protocol
-- Shared memory for context storage
-- Conversation history tracking
-- Task delegation and result aggregation
+## Key Features
+- Modular design with agents focusing on distinct tasks  
+- Communication handled via a message passing protocol  
+- Shared memory to keep track of conversation context and intermediate results  
+- Maintains conversation history for continuity  
+- Supports task delegation and integration of agent outputs
+
 
 ## Directory Structure
 ```
-assignment-3.2-multi-agent-system/
+Assignment-3.2-multi-agent-system/
 ├── README.md
 ├── requirements.txt
 ├── multi_agent_system.ipynb          # Main notebook with examples

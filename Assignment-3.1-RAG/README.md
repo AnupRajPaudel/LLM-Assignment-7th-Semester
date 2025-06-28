@@ -1,24 +1,22 @@
 # Assignment 3.1: Retrieval-Augmented Generation (RAG)
 
-This assignment implements a basic Retrieval-Augmented Generation (RAG) pipeline. The system crawls a given website, builds a retrieval index, and answers questions using retrieved context and a language model.
+This assignment demonstrates a basic implementation of a Retrieval-Augmented Generation (RAG) system. It involves crawling a target website, constructing a retrieval index, and generating answers using context retrieved from the document store and a language model.
 
-## Objectives
-- Crawl a website and build a document store.
-- Implement a retriever to fetch relevant documents for a query.
-- Use a language model to generate answers based on retrieved context.
-- Evaluate the RAG system on a question-answering dataset (e.g., Natural Questions or TriviaQA).
+## 🎯 Goals
+- Crawl web content and build a structured document store  
+- Implement a retriever to locate relevant content for user queries  
+- Use a language model to generate responses based on retrieved information  
+- Evaluate the end-to-end RAG pipeline using a QA dataset like Natural Questions or TriviaQA
 
-## Usage
-1. Install dependencies: `pip install -r requirements.txt`
-2. Run the notebook: `rag_pipeline.ipynb`
-3. Place datasets in the `data/` folder.
+## 🚀 How to Use
+1. Install all dependencies: `pip install -r requirements.txt`  
+2. Open and run the notebook: `rag_pipeline.ipynb`  
+3. Place any datasets or crawled documents in the `data/` directory
 
-## Directory Structure
-- `rag_pipeline.ipynb`: Main implementation notebook
-- `requirements.txt`: Python dependencies
-- `data/`: Datasets and crawled documents
-- `utils.py`: Helper functions (crawling, retrieval, evaluation)
+## 📁 Project Structure
+- `rag_pipeline.ipynb` – Core implementation of the RAG pipeline  
+- `requirements.txt` – List of required Python packages  
+- `data/` – Folder containing datasets and crawled web content  
+- `utils.py` – Utility module with helper functions for crawling, retrieval, and evaluation
 
 ---
-
-Update this README as you progress with the assignment. 
