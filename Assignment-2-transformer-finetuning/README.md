@@ -65,6 +65,7 @@ class TransformerClassifier(nn.Module):
     # Pooling strategy: Mean pooling with attention masking
     # Dropout layer: 0.3 for regularization
     # Classification head: Linear layer (768 → 2 classes)
+```
 ## ⚙️ Training Configuration
 
 ### Hyperparameters
